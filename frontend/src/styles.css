@@ -652,11 +652,12 @@ a.navbar-brand {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     color: #fff;
-    float: left;
+
     width: 165px;
     height: 45px;
     text-align: center;
     line-height: 45px;
+    float: left;
 }
 .hvr-radial-out::before {
     content: "";
