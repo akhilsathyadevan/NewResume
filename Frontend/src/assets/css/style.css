@@ -1,41 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.min.css";
-
 /*------------------------------------------------------------------ IMPORT FONTS -------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 /*------------------------------------------------------------------ IMPORT FILES -------------------------------------------------------------------*/
-@import url(./assets/css/animate.css);
-@import url(./assets/css/font-awesome.min.css);
-@import url(./assets/css/magnific-popup.css);
-@import url(./assets/css/responsiveslides.css);
-@import url(./assets/css/timeline.css);
-@import url(./assets/css/flaticon.css);
+@import url(animate.css);
+@import url(font-awesome.min.css);
+@import url(magnific-popup.css);
+@import url(responsiveslides.css);
+@import url(timeline.css);
+@import url(flaticon.css);
 /*------------------------------------------------------------------ SKELETON -------------------------------------------------------------------*/
 body {
     color: #666666;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.80857;
-    
-}
-.theme_highlight{
-    color:white;
-}
-.pogoSlider-slide{
-    background-image: url('./assets/images/gettyimages.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.pogo-2{
-    background-image: url('./assets/images/360.webp');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; 
 }
 a {
     color: #1f1f1f;
@@ -173,7 +152,7 @@ LOADER
     animation-delay: 0s;
     animation-delay: 0s;
     animation-delay: 0s;
-    background-image: url('/assets/images/gb.png');
+    background-image: url('../images/gb.png');
     background-size: 100% 100%;
 }
 .box:nth-child(1) {
@@ -278,7 +257,7 @@ LOADER
     padding: 5px 0px;
 }
 .top-header {
-    background-image: url("./assets/images/header_img.png");
+    background-image: url("../images/header_img.png");
     position: relative;
     top: 0px;
     left: 0px;
@@ -303,7 +282,6 @@ a.navbar-brand {
     left: 35px;
     position: relative;
 }
-
 .top-header .navbar .navbar-collapse ul li a:hover, .top-header .navbar .navbar-collapse ul li a:focus {
     background: transparent;
     color: #fff;
@@ -402,11 +380,7 @@ a.navbar-brand {
     font-weight: 300;
 }
 .theme_color {
-    color:#0761a5;
-}
-.theme_orange{
-    color: #0a5996;
-    font-weight:bolder;
+    color: #0892fd;
 }
 /*------------------------------------------------------------------ Banner -------------------------------------------------------------------*/
 .home-slider{
@@ -520,7 +494,7 @@ a.navbar-brand {
     font-weight: 200;
 }
 .contact_bt {
-    width: 210px;
+    width: 145px;
     height: 50px;
     background: #07528d;
     color: #fff;
@@ -556,7 +530,7 @@ a.navbar-brand {
     left: -100%;
     width: 200%;
     height: 100%;
-    background: url(/assets/images/wave.svg) repeat-x center center;
+    background: url(../images/wave.svg) repeat-x center center;
     background-size: 50% auto;
 }
 .about-box{
@@ -791,7 +765,6 @@ figure.effect-service:hover {
 .gallery-box{
     padding: 70px 0px 120px;
 }
-
 .gallery-box ul li {
     position: relative;
     width: 31.33%;
@@ -1191,6 +1164,7 @@ figure.effect-service:hover {
 .dit-right a:hover{
     color: #57cef8;
 }
+
 .contact-block .form-group .form-control {
     background: #333;
     height: 48px;
@@ -1356,7 +1330,7 @@ p {
 }
 .heading_main p.large {
     font-size: 20px;
-    color: #faf5f5;
+    color: #605f5f;
     position: relative;
     padding: 0 185px;
 }
@@ -1365,7 +1339,7 @@ p {
     display: block;
     width: 163px;
     height: 18px;
-    background-image: url('./assets/images/heading_border_left.png');
+    background-image: url('../images/heading_border_left.png');
     position: absolute;
     background-position: center left;
     position: absolute;
@@ -1377,7 +1351,7 @@ p {
     display: block;
     width: 163px;
     height: 18px;
-    background-image: url('./assets/images/heading_border_right.png');
+    background-image: url('../images/heading_border_right.png');
     position: absolute;
     background-position: center right;
     position: absolute;
@@ -1471,7 +1445,7 @@ ul.bottom_menu li {
     background-color: #f9f9f9;
     min-height: 150px;
     text-align: center;
-    background-image: url("./assets/images/slider-01.jpg");
+    background-image: url("../images/slider-01.jpg");
     background-size: cover;
     background-position: center center;
 }
